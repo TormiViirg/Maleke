@@ -1,0 +1,2025 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.41f1 (46e447368a18) revision 4645959'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15755 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/tormi/My project (1)
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+64835
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/tormi/My project (1)
+C:/Users/tormi/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2476]  Target information:
+
+Player connection [2476]  * "[IP] 172.18.100.51 [Port] 0 [Flags] 2 [Guid] 4158098639 [EditorId] 4158098639 [Version] 1048832 [Id] WindowsEditor(7,KAPO-kaubik-174) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2476] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2476] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.41f1 (46e447368a18)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tormi/My project (1)/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7877 MB
+    Driver:   30.0.13044.14002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.006518 seconds.
+- Loaded All Assemblies, in  0.526 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 405 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.905 seconds
+Domain Reload Profiling: 1427ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (200ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (850ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (544ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.976 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.068 seconds
+Domain Reload Profiling: 2036ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (658ms)
+		LoadAssemblies (483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (204ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1068ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (860ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6199 unused Assets / (6.6 MB). Loaded Objects now: 6826.
+Memory consumption went from 160.2 MB to 153.6 MB.
+Total: 13.605600 ms (FindLiveObjects: 1.177600 ms CreateObjectMapping: 0.964000 ms MarkObjects: 6.699800 ms  DeleteObjects: 4.762300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1139886.679019 seconds.
+  path: Assets/Kitchen table with chair/Textures/ClassicKitchenChair2_d.png
+  artifactKey: Guid(94d165fd178b70a4f85e555abcaa642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen table with chair/Textures/ClassicKitchenChair2_d.png using Guid(94d165fd178b70a4f85e555abcaa642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db425971e4db778e2f2d8095b7df9372') in 0.1045248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.214150 seconds.
+  path: Assets/Kitchen table with chair/Textures/ClassicKitchenChair2_m.png
+  artifactKey: Guid(1ca42e1c3cb54df4ebd6e6704a527d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen table with chair/Textures/ClassicKitchenChair2_m.png using Guid(1ca42e1c3cb54df4ebd6e6704a527d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19cb482492a63115e741796a8799b7fb') in 0.0290981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.445509 seconds.
+  path: Assets/Kitchen table with chair/Textures/ClassicKitchenChair2_n.png
+  artifactKey: Guid(f5cfa26eec65d574f9402a1e7220785a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen table with chair/Textures/ClassicKitchenChair2_n.png using Guid(f5cfa26eec65d574f9402a1e7220785a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8afb7d4d97e673c19e33bd72f46192cd') in 0.0694807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 771.823062 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_05.mat
+  artifactKey: Guid(c74fd1bcdfc3dc548aa878748c2c73e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_05.mat using Guid(c74fd1bcdfc3dc548aa878748c2c73e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ce45dc1a27968c4be066cb98f4ee748') in 0.5685792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_07.mat
+  artifactKey: Guid(8277198ec0924384ca46355178c0195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_07.mat using Guid(8277198ec0924384ca46355178c0195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b97e5cf08babfdd4ae1d3a72cc043cc') in 0.0266178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_08.mat
+  artifactKey: Guid(5c0de40c69f48b14eb67d6190333581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_08.mat using Guid(5c0de40c69f48b14eb67d6190333581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12f0c6957c35c8dd94e7f2cd097bbaf3') in 0.0281753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_10.mat
+  artifactKey: Guid(021258930332ad04593eb874627d5364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_10.mat using Guid(021258930332ad04593eb874627d5364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e078e5377174cc9715ad18a1436258df') in 0.0272128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.281344 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_11.mat
+  artifactKey: Guid(cf70886d3aefe7345be51883145b849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_11.mat using Guid(cf70886d3aefe7345be51883145b849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f77ebaf8c7eae47810115f445341464') in 0.0236307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019477 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Preview/M_YFFlM_checker.mat
+  artifactKey: Guid(f3fc9e8ac98a8c344bae9e4c9f0c8ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Preview/M_YFFlM_checker.mat using Guid(f3fc9e8ac98a8c344bae9e4c9f0c8ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d28bc80177a14493db31680977617e4') in 0.0169985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084221 seconds.
+  path: Assets/Kitchen table with chair/Materials/PlateWithFruit_glass.mat
+  artifactKey: Guid(9e443b774127d364e8de7f8fbf1d2680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen table with chair/Materials/PlateWithFruit_glass.mat using Guid(9e443b774127d364e8de7f8fbf1d2680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '518cfbf86be2507785475ee7014db9e6') in 0.0520531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.201630 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Pawn.dae
+  artifactKey: Guid(6730016ba0e329c499d89e81bd550346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Pawn.dae using Guid(6730016ba0e329c499d89e81bd550346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c63753e195a847265eac1553f60d1989') in 0.0835255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059557 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae
+  artifactKey: Guid(695bd15b69d9eac408b599c22f9de55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae using Guid(695bd15b69d9eac408b599c22f9de55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '170d4f6ae7c7e431e6588558c938c55e') in 0.0305322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 725.101621 seconds.
+  path: Assets/YughuesFreeFlooringMaterials
+  artifactKey: Guid(810631ac6d801ab44a8d2c3b461032b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials using Guid(810631ac6d801ab44a8d2c3b461032b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf1ed8b4721ac96a4e01c581fbc8ee8b') in 0.0012314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.927208 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/YughuesFreeFlooringMaterials_HDRP.unitypackage
+  artifactKey: Guid(153869c2ac42a224db1c959fdd3aff73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/YughuesFreeFlooringMaterials_HDRP.unitypackage using Guid(153869c2ac42a224db1c959fdd3aff73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c16c981cfc00b7bbc99f8f4d97dd0f4d') in 0.0041603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.126663 seconds.
+  path: Assets/Kitchen table with chair/Materials/ClassicKitchenChair2.mat
+  artifactKey: Guid(10abe150740a3f74d86a66a20ccf29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen table with chair/Materials/ClassicKitchenChair2.mat using Guid(10abe150740a3f74d86a66a20ccf29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cde5d9be14e38235b039f287b62dd87f') in 0.0670507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 3810.238410 seconds.
+  path: Assets/Kitchen table with chair/Demo/Default.mat
+  artifactKey: Guid(619c8293f865e3e4bb44226b5e43a1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen table with chair/Demo/Default.mat using Guid(619c8293f865e3e4bb44226b5e43a1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8f6808d8b71e5515ede2658d41ee64') in 0.1078527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_02.mat
+  artifactKey: Guid(057523c35ac98894fa1692c16a6b2827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_02.mat using Guid(057523c35ac98894fa1692c16a6b2827) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '368ebe7ddda71af81ca350a57418f319') in 3.9924819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_05.mat
+  artifactKey: Guid(c74fd1bcdfc3dc548aa878748c2c73e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_05.mat using Guid(c74fd1bcdfc3dc548aa878748c2c73e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e789c274c057b4e51ad1d12bd86b35b3') in 0.0786601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_08.mat
+  artifactKey: Guid(5c0de40c69f48b14eb67d6190333581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_08.mat using Guid(5c0de40c69f48b14eb67d6190333581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9298abd495c46a1107a38e4ac15b5b53') in 0.0648832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_09.mat
+  artifactKey: Guid(be4748be6193aca4dbc6ef760fe8adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_09.mat using Guid(be4748be6193aca4dbc6ef760fe8adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ed9a596ac32cfca7495bd7218a36026') in 0.0481877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076091 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_11.mat
+  artifactKey: Guid(cf70886d3aefe7345be51883145b849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_11.mat using Guid(cf70886d3aefe7345be51883145b849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5fb5aed98843458a049fb554437201f') in 0.0382099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.315487 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Preview/M_YFFlM_checker.mat
+  artifactKey: Guid(f3fc9e8ac98a8c344bae9e4c9f0c8ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeFlooringMaterials/Preview/M_YFFlM_checker.mat using Guid(f3fc9e8ac98a8c344bae9e4c9f0c8ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85ab317047c029e4784b13d0f7d71f5d') in 0.0351097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Kitchen table with chair/Materials/PlateWithFruit_glass.mat
+  artifactKey: Guid(9e443b774127d364e8de7f8fbf1d2680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen table with chair/Materials/PlateWithFruit_glass.mat using Guid(9e443b774127d364e8de7f8fbf1d2680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '909c18df3a72b5afcc68b51757fe4778') in 4.6982064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 2011.937774 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(383f687be50ae94419c95fd80bbd0014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(383f687be50ae94419c95fd80bbd0014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9177f0d86e5fc7d31c49b2dc192f90cf') in 0.0020078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.207004 seconds.
+  path: Assets/Scripts/Chess Game
+  artifactKey: Guid(ff42dae1d48cbc344b3702f5e2bcfabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game using Guid(ff42dae1d48cbc344b3702f5e2bcfabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ce27c34942e16d2740a754d16e99780') in 0.0009721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.224854 seconds.
+  path: Assets/Scripts/Chess Game/Pieces
+  artifactKey: Guid(426581c972bed2d4c89f0590c4c05096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/Pieces using Guid(426581c972bed2d4c89f0590c4c05096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2847aaa3ca6b47957ea412c82882a5b') in 0.0020142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6178 unused Assets / (6.0 MB). Loaded Objects now: 7016.
+Memory consumption went from 149.7 MB to 143.7 MB.
+Total: 327.256000 ms (FindLiveObjects: 2.835100 ms CreateObjectMapping: 1.212400 ms MarkObjects: 318.788700 ms  DeleteObjects: 4.417000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.406 seconds
+Refreshing native plugins compatible for Editor in 8.47 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.975 seconds
+Domain Reload Profiling: 5377ms
+	BeginReloadAssembly (1642ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (298ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (709ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (1512ms)
+		LoadAssemblies (1362ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (561ms)
+			TypeCache.Refresh (45ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (462ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1977ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (256ms)
+			ProcessInitializeOnLoadAttributes (959ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6197 unused Assets / (7.1 MB). Loaded Objects now: 6917.
+Memory consumption went from 160.1 MB to 152.9 MB.
+Total: 15.361200 ms (FindLiveObjects: 0.964800 ms CreateObjectMapping: 1.214500 ms MarkObjects: 7.498000 ms  DeleteObjects: 5.681900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6177 unused Assets / (6.8 MB). Loaded Objects now: 6918.
+Memory consumption went from 158.4 MB to 151.6 MB.
+Total: 13.665900 ms (FindLiveObjects: 0.933700 ms CreateObjectMapping: 1.026400 ms MarkObjects: 6.279300 ms  DeleteObjects: 5.424400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 111.931060 seconds.
+  path: Assets/Scripts/Chess Game/BoardLayout.cs
+  artifactKey: Guid(01577b24bb13f4d47a4c6d48c22e1f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/BoardLayout.cs using Guid(01577b24bb13f4d47a4c6d48c22e1f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebc2e9e045cbaeea147cd1c7bff9c3c5') in 0.0050636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.105 seconds
+Refreshing native plugins compatible for Editor in 7.43 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.126 seconds
+Domain Reload Profiling: 2226ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (729ms)
+		LoadAssemblies (640ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (195ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1126ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (805ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (568ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6198 unused Assets / (6.4 MB). Loaded Objects now: 6920.
+Memory consumption went from 158.3 MB to 151.8 MB.
+Total: 12.545300 ms (FindLiveObjects: 0.930400 ms CreateObjectMapping: 1.005400 ms MarkObjects: 6.183900 ms  DeleteObjects: 4.423500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6178 unused Assets / (6.2 MB). Loaded Objects now: 6921.
+Memory consumption went from 158.4 MB to 152.2 MB.
+Total: 13.794900 ms (FindLiveObjects: 1.345400 ms CreateObjectMapping: 1.557800 ms MarkObjects: 6.281900 ms  DeleteObjects: 4.607700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.009 seconds
+Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.124 seconds
+Domain Reload Profiling: 2129ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (636ms)
+		LoadAssemblies (532ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1124ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (853ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (601ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6199 unused Assets / (6.9 MB). Loaded Objects now: 6923.
+Memory consumption went from 158.3 MB to 151.4 MB.
+Total: 17.353800 ms (FindLiveObjects: 1.080400 ms CreateObjectMapping: 1.621300 ms MarkObjects: 8.071600 ms  DeleteObjects: 6.578100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6178 unused Assets / (7.2 MB). Loaded Objects now: 6923.
+Memory consumption went from 158.4 MB to 151.1 MB.
+Total: 26.974000 ms (FindLiveObjects: 1.763200 ms CreateObjectMapping: 1.388000 ms MarkObjects: 11.240900 ms  DeleteObjects: 12.579800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 89.665695 seconds.
+  path: Assets/Scripts/Chess Game/BoardGameController.cs
+  artifactKey: Guid(4668118cb040a6842b4688d63c9857df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/BoardGameController.cs using Guid(4668118cb040a6842b4688d63c9857df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acc10b4798f1051ef65f7f78af8a9232') in 0.0034251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.006 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.297 seconds
+Domain Reload Profiling: 2300ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (638ms)
+		LoadAssemblies (554ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (189ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (963ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (671ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6199 unused Assets / (6.9 MB). Loaded Objects now: 6925.
+Memory consumption went from 158.3 MB to 151.3 MB.
+Total: 20.162800 ms (FindLiveObjects: 1.515400 ms CreateObjectMapping: 1.691700 ms MarkObjects: 9.047300 ms  DeleteObjects: 7.905900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.235418 seconds.
+  path: Assets/Scripts/Chess Game/BoardGameController.cs
+  artifactKey: Guid(4668118cb040a6842b4688d63c9857df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/BoardGameController.cs using Guid(4668118cb040a6842b4688d63c9857df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f4c26d87c21b6c0b29cd3f0ec89de9b') in 0.0022757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6178 unused Assets / (7.1 MB). Loaded Objects now: 6925.
+Memory consumption went from 158.4 MB to 151.3 MB.
+Total: 22.705300 ms (FindLiveObjects: 1.492300 ms CreateObjectMapping: 1.186100 ms MarkObjects: 10.562000 ms  DeleteObjects: 9.461300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.983 seconds
+Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.294 seconds
+Domain Reload Profiling: 2271ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (608ms)
+		LoadAssemblies (505ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (204ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1294ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (962ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (670ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6199 unused Assets / (6.4 MB). Loaded Objects now: 6927.
+Memory consumption went from 158.3 MB to 151.9 MB.
+Total: 19.789000 ms (FindLiveObjects: 1.169400 ms CreateObjectMapping: 1.754700 ms MarkObjects: 9.203000 ms  DeleteObjects: 7.659500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 58.152118 seconds.
+  path: Assets/Scripts/Chess Game/ChessGameController.cs
+  artifactKey: Guid(4668118cb040a6842b4688d63c9857df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/ChessGameController.cs using Guid(4668118cb040a6842b4688d63c9857df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de83a1b6735cfde1080599191b24ac64') in 0.0027526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6179 unused Assets / (6.2 MB). Loaded Objects now: 6928.
+Memory consumption went from 158.4 MB to 152.2 MB.
+Total: 13.460600 ms (FindLiveObjects: 1.035900 ms CreateObjectMapping: 1.029100 ms MarkObjects: 6.864300 ms  DeleteObjects: 4.529100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.168377 seconds.
+  path: Assets/Scripts/Chess Game/NewMonoBehaviourScript.cs
+  artifactKey: Guid(d253477dc8ac93344b88c090849d75b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/NewMonoBehaviourScript.cs using Guid(d253477dc8ac93344b88c090849d75b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '486f4a8890181bf2e030c4459d226d9e') in 0.0009655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6179 unused Assets / (5.8 MB). Loaded Objects now: 6928.
+Memory consumption went from 158.3 MB to 152.5 MB.
+Total: 14.048300 ms (FindLiveObjects: 1.081400 ms CreateObjectMapping: 1.110800 ms MarkObjects: 6.992400 ms  DeleteObjects: 4.862000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6180 unused Assets / (6.9 MB). Loaded Objects now: 6929.
+Memory consumption went from 158.4 MB to 151.5 MB.
+Total: 16.194200 ms (FindLiveObjects: 1.241100 ms CreateObjectMapping: 1.345700 ms MarkObjects: 7.644400 ms  DeleteObjects: 5.960500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.460918 seconds.
+  path: Assets/Scripts/Chess Game/Piece.cs
+  artifactKey: Guid(8004f2da8592c8748a86d25d523bd3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/Piece.cs using Guid(8004f2da8592c8748a86d25d523bd3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '595f685301e7b756c9885660f77d7bb7') in 0.0023667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (6.8 MB). Loaded Objects now: 6930.
+Memory consumption went from 158.4 MB to 151.6 MB.
+Total: 14.458200 ms (FindLiveObjects: 0.905300 ms CreateObjectMapping: 0.630200 ms MarkObjects: 8.035500 ms  DeleteObjects: 4.884100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6182 unused Assets / (7.0 MB). Loaded Objects now: 6931.
+Memory consumption went from 158.4 MB to 151.4 MB.
+Total: 15.156400 ms (FindLiveObjects: 1.177800 ms CreateObjectMapping: 1.034700 ms MarkObjects: 7.011000 ms  DeleteObjects: 5.930800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 96.138182 seconds.
+  path: Assets/Scripts/Input System
+  artifactKey: Guid(16e42e473b49cee428ee97e996758e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Input System using Guid(16e42e473b49cee428ee97e996758e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc00a66b582c4c6297d1f2aca26ea78b') in 0.0011215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6183 unused Assets / (6.7 MB). Loaded Objects now: 6932.
+Memory consumption went from 158.4 MB to 151.7 MB.
+Total: 17.068500 ms (FindLiveObjects: 1.491300 ms CreateObjectMapping: 1.985200 ms MarkObjects: 8.034600 ms  DeleteObjects: 5.554100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.513780 seconds.
+  path: Assets/Scripts/Input System/InputReciever.cs
+  artifactKey: Guid(dc2196522b9b9c0499ce8988afa59df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Input System/InputReciever.cs using Guid(dc2196522b9b9c0499ce8988afa59df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa6005704b453ba4a1bf249f0703b8f8') in 0.0014408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6184 unused Assets / (7.1 MB). Loaded Objects now: 6933.
+Memory consumption went from 158.4 MB to 151.3 MB.
+Total: 16.120400 ms (FindLiveObjects: 0.983400 ms CreateObjectMapping: 1.065800 ms MarkObjects: 7.233400 ms  DeleteObjects: 6.835200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 71.108604 seconds.
+  path: Assets/Scripts/Input System/InputHandler.cs
+  artifactKey: Guid(a8a116c2f3a200b449033bd3dcc96add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Input System/InputHandler.cs using Guid(a8a116c2f3a200b449033bd3dcc96add) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c301e740b852c04fc36f2622d8453d89') in 0.0020209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6185 unused Assets / (6.8 MB). Loaded Objects now: 6934.
+Memory consumption went from 158.4 MB to 151.6 MB.
+Total: 20.230300 ms (FindLiveObjects: 1.801500 ms CreateObjectMapping: 2.146000 ms MarkObjects: 9.020200 ms  DeleteObjects: 7.248700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.467879 seconds.
+  path: Assets/Scripts/Input System/BoardInputHandler.cs
+  artifactKey: Guid(cd0b7d224d546974285bdbcce72e9109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Input System/BoardInputHandler.cs using Guid(cd0b7d224d546974285bdbcce72e9109) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcd7117095584bf9a6dc26ace2c9b19c') in 0.001552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6186 unused Assets / (6.9 MB). Loaded Objects now: 6935.
+Memory consumption went from 158.4 MB to 151.5 MB.
+Total: 22.098000 ms (FindLiveObjects: 2.673200 ms CreateObjectMapping: 2.019800 ms MarkObjects: 9.603000 ms  DeleteObjects: 7.799100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.803811 seconds.
+  path: Assets/Scripts/Input System/AutoInputHandler.cs
+  artifactKey: Guid(b9efe8968df0417429a73325e06b70e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Input System/AutoInputHandler.cs using Guid(b9efe8968df0417429a73325e06b70e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d42ba4928da5ecd1bdf366c63e349d5') in 0.0013369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6187 unused Assets / (6.9 MB). Loaded Objects now: 6936.
+Memory consumption went from 158.4 MB to 151.5 MB.
+Total: 17.960200 ms (FindLiveObjects: 1.110900 ms CreateObjectMapping: 1.349300 ms MarkObjects: 8.388300 ms  DeleteObjects: 7.109300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.003907 seconds.
+  path: Assets/Scripts/Input System/UIInputHandler.cs
+  artifactKey: Guid(6601ac23344d6f442a97193cd5f0260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Input System/UIInputHandler.cs using Guid(6601ac23344d6f442a97193cd5f0260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12a834365e9e01bb5d9db62205cc24b9') in 0.0015052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6188 unused Assets / (7.5 MB). Loaded Objects now: 6937.
+Memory consumption went from 158.4 MB to 150.9 MB.
+Total: 24.014500 ms (FindLiveObjects: 1.601000 ms CreateObjectMapping: 2.412400 ms MarkObjects: 10.846600 ms  DeleteObjects: 9.151100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.287040 seconds.
+  path: Assets/Scripts/Input System/UIInputReciever.cs
+  artifactKey: Guid(b15e8c71eb1d3f548b2bef5c5d86c19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Input System/UIInputReciever.cs using Guid(b15e8c71eb1d3f548b2bef5c5d86c19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8756e44525af19b7d13558932c36fe') in 0.0011776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6189 unused Assets / (6.9 MB). Loaded Objects now: 6938.
+Memory consumption went from 158.4 MB to 151.5 MB.
+Total: 14.472000 ms (FindLiveObjects: 0.969500 ms CreateObjectMapping: 1.077500 ms MarkObjects: 6.503100 ms  DeleteObjects: 5.919700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.466101 seconds.
+  path: Assets/Scripts/Input System/ColliderInputReciever.cs
+  artifactKey: Guid(c01b9bd2d0ca02245ba730ed331c8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Input System/ColliderInputReciever.cs using Guid(c01b9bd2d0ca02245ba730ed331c8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0338a9a0df724a31a03943b2971097b7') in 0.0013382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.711636 seconds.
+  path: Assets/Scripts/Tweeners
+  artifactKey: Guid(e2cacd014a3dc4948b15b66755dd0b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tweeners using Guid(e2cacd014a3dc4948b15b66755dd0b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c536e722bd2d732242437de3d336ddf') in 0.0011614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6190 unused Assets / (6.6 MB). Loaded Objects now: 6939.
+Memory consumption went from 158.4 MB to 151.8 MB.
+Total: 24.399000 ms (FindLiveObjects: 1.360600 ms CreateObjectMapping: 2.383700 ms MarkObjects: 10.293000 ms  DeleteObjects: 10.358600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.652153 seconds.
+  path: Assets/Scripts/Tweeners/UIObjectTweener.cs
+  artifactKey: Guid(a67b463dbc7f32246a6ea85c95e5a073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tweeners/UIObjectTweener.cs using Guid(a67b463dbc7f32246a6ea85c95e5a073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '571b25ce9c52d64caa660a76f7d57943') in 0.0015792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6190 unused Assets / (6.8 MB). Loaded Objects now: 6939.
+Memory consumption went from 158.4 MB to 151.6 MB.
+Total: 15.495400 ms (FindLiveObjects: 1.107200 ms CreateObjectMapping: 1.109300 ms MarkObjects: 7.789500 ms  DeleteObjects: 5.486300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 53.798301 seconds.
+  path: Assets/Scripts/Tweeners/IOObjectTweener.cs
+  artifactKey: Guid(a67b463dbc7f32246a6ea85c95e5a073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tweeners/IOObjectTweener.cs using Guid(a67b463dbc7f32246a6ea85c95e5a073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '817e8975a228258dab87c69931fb1390') in 0.0009963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6191 unused Assets / (6.2 MB). Loaded Objects now: 6940.
+Memory consumption went from 158.4 MB to 152.2 MB.
+Total: 18.418500 ms (FindLiveObjects: 1.354100 ms CreateObjectMapping: 1.449300 ms MarkObjects: 9.220900 ms  DeleteObjects: 6.391800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.221626 seconds.
+  path: Assets/Scripts/Tweeners/InstantTweener.cs
+  artifactKey: Guid(00c21e47308fc724985671aafbba4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tweeners/InstantTweener.cs using Guid(00c21e47308fc724985671aafbba4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd2149e05c6678f6b279a868f9076db9') in 0.00133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6192 unused Assets / (7.1 MB). Loaded Objects now: 6941.
+Memory consumption went from 158.4 MB to 151.3 MB.
+Total: 20.067400 ms (FindLiveObjects: 1.308600 ms CreateObjectMapping: 1.438700 ms MarkObjects: 8.132000 ms  DeleteObjects: 9.183900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.182051 seconds.
+  path: Assets/Scripts/Tweeners/LineTweener.cs
+  artifactKey: Guid(b985a3c899d393944bd9d574acf34e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tweeners/LineTweener.cs using Guid(b985a3c899d393944bd9d574acf34e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2451852614bc10697fb4f910e6713601') in 0.0014824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6193 unused Assets / (6.6 MB). Loaded Objects now: 6942.
+Memory consumption went from 158.4 MB to 151.8 MB.
+Total: 15.781100 ms (FindLiveObjects: 1.109400 ms CreateObjectMapping: 1.155700 ms MarkObjects: 7.989300 ms  DeleteObjects: 5.524400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.075032 seconds.
+  path: Assets/Scripts/Tweeners/ArcTweener.cs
+  artifactKey: Guid(6a64fe5c4b5e0864fb1db4d262bfbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tweeners/ArcTweener.cs using Guid(6a64fe5c4b5e0864fb1db4d262bfbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fc5a66c1c8fc7126ff47374690e84cb') in 0.0009887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6194 unused Assets / (7.1 MB). Loaded Objects now: 6943.
+Memory consumption went from 158.4 MB to 151.3 MB.
+Total: 19.559300 ms (FindLiveObjects: 1.209800 ms CreateObjectMapping: 1.467000 ms MarkObjects: 8.852500 ms  DeleteObjects: 8.027300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.847882 seconds.
+  path: Assets/Scripts/UIButton.cs
+  artifactKey: Guid(7d3095b3f2288a04c9e29d60e538bb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIButton.cs using Guid(7d3095b3f2288a04c9e29d60e538bb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05db9b1eb23c0bb8112d0b3b01569a77') in 0.0012242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6195 unused Assets / (6.8 MB). Loaded Objects now: 6944.
+Memory consumption went from 158.4 MB to 151.6 MB.
+Total: 14.168900 ms (FindLiveObjects: 1.229100 ms CreateObjectMapping: 1.208500 ms MarkObjects: 6.907900 ms  DeleteObjects: 4.820200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.572762 seconds.
+  path: Assets/Scripts/MatterialsSetter.cs
+  artifactKey: Guid(a6334a840706d2e4287dd3a4be94f529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MatterialsSetter.cs using Guid(a6334a840706d2e4287dd3a4be94f529) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0295a2d7afbf90ce2aa3f20ddafb3ac2') in 0.0012871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6196 unused Assets / (7.0 MB). Loaded Objects now: 6945.
+Memory consumption went from 158.4 MB to 151.5 MB.
+Total: 17.800100 ms (FindLiveObjects: 1.146800 ms CreateObjectMapping: 1.480800 ms MarkObjects: 7.890100 ms  DeleteObjects: 7.279500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 99.040607 seconds.
+  path: Assets/Scripts/Chess Game/Pieces/Bishop.cs
+  artifactKey: Guid(2eff913220512ec4dbe56aa0d6b8875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/Pieces/Bishop.cs using Guid(2eff913220512ec4dbe56aa0d6b8875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '624ca68f833566e2a8adfcf40b013c65') in 0.0013246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6197 unused Assets / (7.2 MB). Loaded Objects now: 6946.
+Memory consumption went from 158.4 MB to 151.3 MB.
+Total: 16.565200 ms (FindLiveObjects: 1.267200 ms CreateObjectMapping: 1.377200 ms MarkObjects: 7.184700 ms  DeleteObjects: 6.733400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.418241 seconds.
+  path: Assets/Scripts/Chess Game/Pieces/King.cs
+  artifactKey: Guid(69e86f1fbc497da4c8468853d629b9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/Pieces/King.cs using Guid(69e86f1fbc497da4c8468853d629b9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8734ad3e1de54a44860065277828774c') in 0.0016227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6198 unused Assets / (6.6 MB). Loaded Objects now: 6947.
+Memory consumption went from 158.4 MB to 151.8 MB.
+Total: 16.672600 ms (FindLiveObjects: 1.150800 ms CreateObjectMapping: 1.263900 ms MarkObjects: 8.064000 ms  DeleteObjects: 6.190700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.164090 seconds.
+  path: Assets/Scripts/Chess Game/Pieces/Knight.cs
+  artifactKey: Guid(6fc8f7edd9e4168429c843d73b7731e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/Pieces/Knight.cs using Guid(6fc8f7edd9e4168429c843d73b7731e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a9e2cd6438a0875a8a5ff89243be4e2') in 0.0013471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6199 unused Assets / (7.0 MB). Loaded Objects now: 6948.
+Memory consumption went from 158.4 MB to 151.5 MB.
+Total: 13.861700 ms (FindLiveObjects: 0.982000 ms CreateObjectMapping: 0.950800 ms MarkObjects: 6.956400 ms  DeleteObjects: 4.970200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.152278 seconds.
+  path: Assets/Scripts/Chess Game/Pieces/Pawn.cs
+  artifactKey: Guid(a53582016e9cd0d418e1cdd568cde22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/Pieces/Pawn.cs using Guid(a53582016e9cd0d418e1cdd568cde22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f150b8f70ee8e0342eb4269692adc088') in 0.001174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6200 unused Assets / (6.5 MB). Loaded Objects now: 6949.
+Memory consumption went from 158.5 MB to 152.0 MB.
+Total: 13.516000 ms (FindLiveObjects: 1.186500 ms CreateObjectMapping: 1.111100 ms MarkObjects: 6.226800 ms  DeleteObjects: 4.989000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.402091 seconds.
+  path: Assets/Scripts/Chess Game/Pieces/Queen.cs
+  artifactKey: Guid(33f3d4d804e8b664eb7a1e41605e0352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/Pieces/Queen.cs using Guid(33f3d4d804e8b664eb7a1e41605e0352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4f2fcf07609ffbe106fae15a7f0059d') in 0.0012653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6201 unused Assets / (7.0 MB). Loaded Objects now: 6950.
+Memory consumption went from 158.5 MB to 151.4 MB.
+Total: 16.556600 ms (FindLiveObjects: 1.150400 ms CreateObjectMapping: 1.339700 ms MarkObjects: 7.832700 ms  DeleteObjects: 6.230300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.795643 seconds.
+  path: Assets/Scripts/Chess Game/Pieces/Rook.cs
+  artifactKey: Guid(2da0096886a6fc5468b8adbe986c8dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/Pieces/Rook.cs using Guid(2da0096886a6fc5468b8adbe986c8dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f54401c8061b3d65a33ead76277469ae') in 0.0014177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.807283 seconds.
+  path: Assets/Scripts/Enums
+  artifactKey: Guid(9e10f038e7fb6384a8458073a6310011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enums using Guid(9e10f038e7fb6384a8458073a6310011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00306509b8fbe3c918a1e1b05161c0f7') in 0.001543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6202 unused Assets / (6.5 MB). Loaded Objects now: 6951.
+Memory consumption went from 158.5 MB to 152.0 MB.
+Total: 24.444100 ms (FindLiveObjects: 1.554100 ms CreateObjectMapping: 2.626900 ms MarkObjects: 12.602200 ms  DeleteObjects: 7.657500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.164408 seconds.
+  path: Assets/Scripts/Enums/TeamColor.cs
+  artifactKey: Guid(1d6aa59e491fddf478bd5ddd8c50b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enums/TeamColor.cs using Guid(1d6aa59e491fddf478bd5ddd8c50b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a45051baf516dd54412f2b353dd89d60') in 0.0015552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6203 unused Assets / (6.5 MB). Loaded Objects now: 6952.
+Memory consumption went from 158.5 MB to 151.9 MB.
+Total: 15.431900 ms (FindLiveObjects: 1.200900 ms CreateObjectMapping: 1.426600 ms MarkObjects: 7.319400 ms  DeleteObjects: 5.482400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.766944 seconds.
+  path: Assets/Scripts/Enums/PieceType.cs
+  artifactKey: Guid(7d2e199c9f6154547adff78e530e93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enums/PieceType.cs using Guid(7d2e199c9f6154547adff78e530e93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8210ba5b70bc0aa1c07199e1e60cd10b') in 0.0014595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3117.926671 seconds.
+  path: Assets/Scripts/Chess Game/BoardLayout.cs
+  artifactKey: Guid(01577b24bb13f4d47a4c6d48c22e1f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/BoardLayout.cs using Guid(01577b24bb13f4d47a4c6d48c22e1f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '443613adeb65b73164a4d4b9d2cd25cb') in 0.0056267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6203 unused Assets / (5.9 MB). Loaded Objects now: 6952.
+Memory consumption went from 158.5 MB to 152.5 MB.
+Total: 210.124000 ms (FindLiveObjects: 4.583600 ms CreateObjectMapping: 2.112000 ms MarkObjects: 193.311900 ms  DeleteObjects: 10.109700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2363.884139 seconds.
+  path: Assets/Scripts/Chess Game/BoardLayout.cs
+  artifactKey: Guid(01577b24bb13f4d47a4c6d48c22e1f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/BoardLayout.cs using Guid(01577b24bb13f4d47a4c6d48c22e1f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd5eeb352146c34dea10b472e9fd2321') in 0.00655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.069010 seconds.
+  path: Assets/Data
+  artifactKey: Guid(af4ac79904d05c846acd263f2ab6287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data using Guid(af4ac79904d05c846acd263f2ab6287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f478dbb9756465f81c60f02211204749') in 0.0010776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6204 unused Assets / (7.7 MB). Loaded Objects now: 6953.
+Memory consumption went from 158.5 MB to 150.7 MB.
+Total: 37.788400 ms (FindLiveObjects: 1.286300 ms CreateObjectMapping: 3.920000 ms MarkObjects: 18.522900 ms  DeleteObjects: 14.055700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6204 unused Assets / (8.1 MB). Loaded Objects now: 6953.
+Memory consumption went from 158.5 MB to 150.3 MB.
+Total: 27.937900 ms (FindLiveObjects: 1.427700 ms CreateObjectMapping: 1.545400 ms MarkObjects: 11.669700 ms  DeleteObjects: 13.290900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6203 unused Assets / (7.0 MB). Loaded Objects now: 6952.
+Memory consumption went from 158.5 MB to 151.5 MB.
+Total: 53.375300 ms (FindLiveObjects: 2.875500 ms CreateObjectMapping: 3.164000 ms MarkObjects: 18.691200 ms  DeleteObjects: 28.639200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 331.195756 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e74c9618247d77e1d23b60b3863092a1') in 2.0794395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Kitchen table with chair/ClassicKitchenChair2.png
+  artifactKey: Guid(7c2098209750e3f42a0ef6828deee56b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/ClassicKitchenChair2.png using Guid(7c2098209750e3f42a0ef6828deee56b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57be2f1660f9ac24dcfab91d99fe9fa3') in 0.1510791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_03_n.tga
+  artifactKey: Guid(3ec21057aef23a94ea848bcafd32a63a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_03_n.tga using Guid(3ec21057aef23a94ea848bcafd32a63a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b291b18b340d466a8352692717315f0') in 0.0690972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_08_n.tga
+  artifactKey: Guid(7826803a7571e0d448319d33b1969e09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_08_n.tga using Guid(7826803a7571e0d448319d33b1969e09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1be37616ca424e943fb0384fa78c7d8b') in 0.0831407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37a41baa1d6906f5d61e40be19f05e5c') in 0.1665969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_02_n.tga
+  artifactKey: Guid(2a9f02e7af68f874a819a831fe6eb13d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_02_n.tga using Guid(2a9f02e7af68f874a819a831fe6eb13d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c180d1ca1b654e732144ff5550b591e0') in 0.0492269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scripts/Chess Game/Board.cs
+  artifactKey: Guid(5d2b91697759aa944a547e3dfcf5b52b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Chess Game/Board.cs using Guid(5d2b91697759aa944a547e3dfcf5b52b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8599fa02376d1a41c7523e4327b65b21') in 0.0428877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_09_n.tga
+  artifactKey: Guid(2e6c50d7bb3c9684d9b8213dcdacabd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_09_n.tga using Guid(2e6c50d7bb3c9684d9b8213dcdacabd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c01ae6caf9fcc18820e61fb3d76822c') in 0.0613514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_06_s.tga
+  artifactKey: Guid(962b69cd870b41c42b1ed80ee6567bcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_06_s.tga using Guid(962b69cd870b41c42b1ed80ee6567bcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a77df765231b68bd5340f1e43e35a34') in 0.0897269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_05.mat
+  artifactKey: Guid(c74fd1bcdfc3dc548aa878748c2c73e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_05.mat using Guid(c74fd1bcdfc3dc548aa878748c2c73e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecaac9f245f6c002a7dc24ad0c5abcaa') in 0.1731527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Materials/Chess Material.mat
+  artifactKey: Guid(fdf806cb46d6a40418581d1568ff1c94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Materials/Chess Material.mat using Guid(fdf806cb46d6a40418581d1568ff1c94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f494dc6ba4640ee1849e1b5e7ce88c2') in 0.038437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/Chess Game/SquareSelectorCreator.cs
+  artifactKey: Guid(1fff4a56242b09349b68dbac473708cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Chess Game/SquareSelectorCreator.cs using Guid(1fff4a56242b09349b68dbac473708cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2aa98faa35d351d854e8d3ab42d378e6') in 0.0244574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kitchen table with chair/Textures/PlateWithFruit_d.png
+  artifactKey: Guid(a453ecb69b696504bb4889cb995a681c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/Textures/PlateWithFruit_d.png using Guid(a453ecb69b696504bb4889cb995a681c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3fc8bedd910cac67d0e5b4df73a28684') in 0.0419546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kitchen table with chair/Materials/PlateWithFruit_glass.mat
+  artifactKey: Guid(9e443b774127d364e8de7f8fbf1d2680) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/Materials/PlateWithFruit_glass.mat using Guid(9e443b774127d364e8de7f8fbf1d2680) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a133c10f5631b30c9198d28d7595c320') in 0.0433939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '641d4879c99d41cbb5c1ba8d49735b23') in 0.0201141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_06_n.tga
+  artifactKey: Guid(226247123aba86245ae1118d2d326c24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_06_n.tga using Guid(226247123aba86245ae1118d2d326c24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03c5733714a0e58b9c6287caf96f2d30') in 0.0323057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Pawn.dae
+  artifactKey: Guid(8fbcce33444d4ce4db5b61f8d0eeb7aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Pawn.dae using Guid(8fbcce33444d4ce4db5b61f8d0eeb7aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f789b2011b1c7ed59c21095e0bf8aa34') in 0.1517407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kitchen table with chair/Prefabs/PlateWithFruit.prefab
+  artifactKey: Guid(49f1b2a095d7cc74e8dd6f00fefa1e9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/Prefabs/PlateWithFruit.prefab using Guid(49f1b2a095d7cc74e8dd6f00fefa1e9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e0fdc4b026b3198e7f7ff0a58ad752f') in 0.0541176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_12_s.tga
+  artifactKey: Guid(a6f602e2d3a679941a4a1b09d7e8dbbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_12_s.tga using Guid(a6f602e2d3a679941a4a1b09d7e8dbbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b397b9119f153c50a636d2bc3a55140c') in 0.0338963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TutorialInfo/Icons/Mobile 3D.png
+  artifactKey: Guid(cbea0258d69fdef4ba73fa582f0e2004) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Icons/Mobile 3D.png using Guid(cbea0258d69fdef4ba73fa582f0e2004) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cccf2ce77b1a7825b74026f61a383f2b') in 0.0336632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Board.prefab
+  artifactKey: Guid(31270e9f38d5e7a448ae050b9633fce3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Board.prefab using Guid(31270e9f38d5e7a448ae050b9633fce3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b624b55cbd88e623854765ded8732cf') in 0.0765254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Rook.prefab
+  artifactKey: Guid(9d3e9c36668dcfe44b524760a4c3a3b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Rook.prefab using Guid(9d3e9c36668dcfe44b524760a4c3a3b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69db5adedc6e20c6cb6a4122fc0dc5e7') in 0.0516828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/Chess Game/ChessPlayer.cs
+  artifactKey: Guid(d253477dc8ac93344b88c090849d75b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Chess Game/ChessPlayer.cs using Guid(d253477dc8ac93344b88c090849d75b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7401fe624e40572329a7b2e69693651') in 0.0258655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae
+  artifactKey: Guid(695bd15b69d9eac408b599c22f9de55d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae using Guid(695bd15b69d9eac408b599c22f9de55d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e68bf512438c78eb47504141a162373') in 0.0407088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Preview/M_YFFlM_checker.mat
+  artifactKey: Guid(f3fc9e8ac98a8c344bae9e4c9f0c8ff3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Preview/M_YFFlM_checker.mat using Guid(f3fc9e8ac98a8c344bae9e4c9f0c8ff3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf6e6aef407c4d8f0b639ab5dea7ec2c') in 0.0327344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_02_d.tga
+  artifactKey: Guid(f45dc07eb4853f14cabf7fb9668944d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_02_d.tga using Guid(f45dc07eb4853f14cabf7fb9668944d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '233d7212393b452c8b5a68a6a279b5d5') in 0.0541809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Textures/Chess Color Scheme.png
+  artifactKey: Guid(2a6c422d6735b0540baa3ebf661f1b8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Textures/Chess Color Scheme.png using Guid(2a6c422d6735b0540baa3ebf661f1b8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7908ba37bab0cdeaa73414cccd6e1392') in 0.0457701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Android/IngameDebugConsole.aar
+  artifactKey: Guid(bf909fab1c14af446b0a854de42289b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Android/IngameDebugConsole.aar using Guid(bf909fab1c14af446b0a854de42289b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ef99e90a309b100dd1fb696a3833828') in 0.0572111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Rook.dae
+  artifactKey: Guid(c61872173bf5220469786c549644854f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Rook.dae using Guid(c61872173bf5220469786c549644854f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd83c02cffcf69a3feae76d2498d3b7e2') in 0.0496303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Kitchen table with chair/Demo/Default.mat
+  artifactKey: Guid(619c8293f865e3e4bb44226b5e43a1ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/Demo/Default.mat using Guid(619c8293f865e3e4bb44226b5e43a1ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30557487f1491dd785f5d4f1ff9dd520') in 0.0427591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Prefabs/DebugLogItem.prefab
+  artifactKey: Guid(391be5df5ef62f345bb76a1051c04da7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Prefabs/DebugLogItem.prefab using Guid(391be5df5ef62f345bb76a1051c04da7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ea68a0fd71ec30e9b00a1ec67b5f49e') in 0.2548517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f5e10bbd7c33f563abae534fb44fdc0') in 0.0304182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Pawn.prefab
+  artifactKey: Guid(48d5ea4ff810d0e4ea36af7235dd5fd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Pawn.prefab using Guid(48d5ea4ff810d0e4ea36af7235dd5fd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5440e6707bf3159f2c4660c8089381ec') in 0.0839494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs
+  artifactKey: Guid(6565f2084f5aef44abe57c988745b9c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs using Guid(6565f2084f5aef44abe57c988745b9c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c9b2718e65d0e530b89bbc78856ff07') in 0.0428058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Bishop.dae
+  artifactKey: Guid(66ad00b166b914e47acce78daea25aa6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Bishop.dae using Guid(66ad00b166b914e47acce78daea25aa6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9eea5359567ca44f9a159ef2fb9b38e7') in 0.0499147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Kitchen table with chair/Textures/ClassicRoundTable1_n.png
+  artifactKey: Guid(102e86789376c47458221aca3537ac50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/Textures/ClassicRoundTable1_n.png using Guid(102e86789376c47458221aca3537ac50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f3ef28d16ea06739cf2c13761a85ec2') in 0.0686684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black King.dae
+  artifactKey: Guid(a1edea9a41e71514f94a737abaf1410c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black King.dae using Guid(a1edea9a41e71514f94a737abaf1410c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6e162c4543c01678ea3a982487633aa') in 0.035963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_11_n.tga
+  artifactKey: Guid(64653ff6451187e4384a310fe68ec8cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_11_n.tga using Guid(64653ff6451187e4384a310fe68ec8cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddecd639896d61a97c3f82d0ecb7f7c9') in 0.0388898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Sprites/IconCollapse.psd
+  artifactKey: Guid(d1546f8db185caf4dafcfa58efa3ba2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Sprites/IconCollapse.psd using Guid(d1546f8db185caf4dafcfa58efa3ba2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e115b891c3e2f54b48908f8ce37f77cf') in 0.0866663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Sprites/IconInfo.psd
+  artifactKey: Guid(5a97d5afa6254804f81b7ba956296996) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Sprites/IconInfo.psd using Guid(5a97d5afa6254804f81b7ba956296996) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ae151d3b68817dea2927be6a9c12cd4') in 0.0526234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Sprites/IconResizeAllDirections.psd
+  artifactKey: Guid(7f0db3cf23c93fc4eac01cb3a52388ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Sprites/IconResizeAllDirections.psd using Guid(7f0db3cf23c93fc4eac01cb3a52388ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72622d3967caa6f90b5f93a1a0faeb4e') in 0.0578983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_01_d.tga
+  artifactKey: Guid(2b1a0b72bb491c440a4e10beac3ae368) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_01_d.tga using Guid(2b1a0b72bb491c440a4e10beac3ae368) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89bc817edf7e11c6ac9a37be964f4cb6') in 0.0344646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Preview/Map__1_Checker.tga
+  artifactKey: Guid(7442bfa14556df34d88da2a2ccd49164) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Preview/Map__1_Checker.tga using Guid(7442bfa14556df34d88da2a2ccd49164) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f108c64410a05c4ac6129e9696c0868d') in 0.0253946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_07_n.tga
+  artifactKey: Guid(84847cd8d8158ad4887c9c61beb549c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_07_n.tga using Guid(84847cd8d8158ad4887c9c61beb549c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ac549d84cc196ee7221780971302f3c') in 0.0320232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs
+  artifactKey: Guid(d15693a03d0d33b4892c6365a2a97e19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/DebugLogConsole.cs using Guid(d15693a03d0d33b4892c6365a2a97e19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a8c360bd59546866aa197985d3993f3') in 0.0342282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kitchen table with chair/ClassicRoundTable1.png
+  artifactKey: Guid(caa47f4d35ea4f648ac37268c9fbb018) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/ClassicRoundTable1.png using Guid(caa47f4d35ea4f648ac37268c9fbb018) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8eb76e24326035ceaf2462681b774126') in 0.0522274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Queen.dae
+  artifactKey: Guid(5d7a66b35fd81564380721b6bfcaaa47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Queen.dae using Guid(5d7a66b35fd81564380721b6bfcaaa47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b70e9238052fbf7cf3bb18528569906') in 0.0418171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab
+  artifactKey: Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab using Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a1c559b6eee6137c5d2ec408dacf7fb') in 0.0389381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Sprites/IconClear.psd
+  artifactKey: Guid(7a9e374666ad6cc47807bb001844f3d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Sprites/IconClear.psd using Guid(7a9e374666ad6cc47807bb001844f3d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f1e87bc3e94b79d53e0961a1757db00') in 0.0445843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scripts/Tweeners/LineTweener.cs
+  artifactKey: Guid(b985a3c899d393944bd9d574acf34e98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Tweeners/LineTweener.cs using Guid(b985a3c899d393944bd9d574acf34e98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e915de28bd7b1c72f6a5ebb2779720fa') in 0.0181998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scripts/UIButton.cs
+  artifactKey: Guid(7d3095b3f2288a04c9e29d60e538bb1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/UIButton.cs using Guid(7d3095b3f2288a04c9e29d60e538bb1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb65cfda47e8f372022bc7a49de81d0a') in 0.021798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kitchen table with chair/Materials/ClassicRoundTable1.mat
+  artifactKey: Guid(196f7ca85378c624aa1978ded1b983e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/Materials/ClassicRoundTable1.mat using Guid(196f7ca85378c624aa1978ded1b983e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab46ccd2c3166fc51b298d207a08a3a8') in 0.0927436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs
+  artifactKey: Guid(05cc4b1999716644c9308528e38e7081) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/DebugLogPopup.cs using Guid(05cc4b1999716644c9308528e38e7081) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b1bfc33ef033a1b614948b3e393caac') in 0.0207297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_04_n.tga
+  artifactKey: Guid(314fc2085c4fab84da6f47c964059220) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_04_n.tga using Guid(314fc2085c4fab84da6f47c964059220) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4bee0693ff0e7b96f17dde017a4eb60') in 0.0282794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_02_s.tga
+  artifactKey: Guid(7f301c36ac56e1f458627dfa8fb0de5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_02_s.tga using Guid(7f301c36ac56e1f458627dfa8fb0de5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55a88a8f9451c7e9e3438157a1e58e75') in 0.0329644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/MatterialsSetter.cs
+  artifactKey: Guid(a6334a840706d2e4287dd3a4be94f529) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/MatterialsSetter.cs using Guid(a6334a840706d2e4287dd3a4be94f529) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03e88397fc3d2d2315bfdd0f6bc3cb18') in 0.0238506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_02.mat
+  artifactKey: Guid(057523c35ac98894fa1692c16a6b2827) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_02.mat using Guid(057523c35ac98894fa1692c16a6b2827) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ed662df80fc4a1fedebd62635122cf4') in 0.0619611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Pawn.dae
+  artifactKey: Guid(6730016ba0e329c499d89e81bd550346) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Pawn.dae using Guid(6730016ba0e329c499d89e81bd550346) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17c920643caf8eac774ac5a25dfaf6cb') in 0.044686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_11_d.tga
+  artifactKey: Guid(96368179a307f804b952bab573f2944f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_11_d.tga using Guid(96368179a307f804b952bab573f2944f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d7a7e42295a99d1a2365374cb8f14d8') in 0.0358538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kitchen table with chair/Textures/PlateWithFruit_n.png
+  artifactKey: Guid(8d0cb26e8d9621643acd057903eba278) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/Textures/PlateWithFruit_n.png using Guid(8d0cb26e8d9621643acd057903eba278) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0472eba50ad813d7b9c51e3970c0ebb5') in 0.0369319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Queen.prefab
+  artifactKey: Guid(6f38c700bedefe64f8364436528e5c3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Queen.prefab using Guid(6f38c700bedefe64f8364436528e5c3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cf42b619c2197aa1338a4613d1fea0f') in 0.0649331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_07.mat
+  artifactKey: Guid(8277198ec0924384ca46355178c0195b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_07.mat using Guid(8277198ec0924384ca46355178c0195b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fad92e195b2749ecf69db9bcd2c6673') in 0.0336861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/YughuesFreeFlooringMaterials_HDRP.unitypackage
+  artifactKey: Guid(153869c2ac42a224db1c959fdd3aff73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/YughuesFreeFlooringMaterials_HDRP.unitypackage using Guid(153869c2ac42a224db1c959fdd3aff73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0443b67db822345c1cb1535deccb634') in 0.0179983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItemCopyWebGL.cs
+  artifactKey: Guid(5a7d9d894141e704d8160fb4632121ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/DebugLogItemCopyWebGL.cs using Guid(5a7d9d894141e704d8160fb4632121ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37932d262b4081ba18eec4f607fced87') in 0.0200013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Android/DebugLogLogcatListener.cs
+  artifactKey: Guid(dd3b7385882055d4a8c2b91deb6b2470) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Android/DebugLogLogcatListener.cs using Guid(dd3b7385882055d4a8c2b91deb6b2470) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33f6dabd55ff53c4891a302f158892be') in 0.0214823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/Input System/UIInputReciever.cs
+  artifactKey: Guid(b15e8c71eb1d3f548b2bef5c5d86c19b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Input System/UIInputReciever.cs using Guid(b15e8c71eb1d3f548b2bef5c5d86c19b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5deca05760e18184e26bc68f44d8ba9') in 0.0215211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Sprites/IconSnapToBottom.psd
+  artifactKey: Guid(066c0b04be98cd348abb79add91d42bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Sprites/IconSnapToBottom.psd using Guid(066c0b04be98cd348abb79add91d42bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56633a6103d3e0c4f72550dc255fea7b') in 0.0494113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/Attributes/ConsoleMethodAttribute.cs
+  artifactKey: Guid(324bb39c0bff0f74fa42f83e91f07e3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/Attributes/ConsoleMethodAttribute.cs using Guid(324bb39c0bff0f74fa42f83e91f07e3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd8bb096b06e508061d5417869002f92') in 0.0312532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Sprites/SlicedBackground.psd
+  artifactKey: Guid(066d3840badf4d24dba1d42b4c59b888) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Sprites/SlicedBackground.psd using Guid(066d3840badf4d24dba1d42b4c59b888) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '668032ee6c3ae8b1137c7cda9c5e7f71') in 0.0469808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Sprites/SlicedBackground2.psd
+  artifactKey: Guid(98e8e1cf8dc7dbf469617c2e40c8a944) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Sprites/SlicedBackground2.psd using Guid(98e8e1cf8dc7dbf469617c2e40c8a944) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31aa2cf35a2ef814b3b68d85ed0c9f8c') in 0.0833045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/Attributes/ConsoleAttribute.cs
+  artifactKey: Guid(efc4511f2eea8034ca3a0a29cac8f554) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/Attributes/ConsoleAttribute.cs using Guid(efc4511f2eea8034ca3a0a29cac8f554) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd91af377f1cf055a5cc1f303ece0664e') in 0.0363469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Plugins/IngameDebugConsole/WebGL/IngameDebugConsole.jslib
+  artifactKey: Guid(aa23dd530e9f98c4cb0766404fc0e755) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/WebGL/IngameDebugConsole.jslib using Guid(aa23dd530e9f98c4cb0766404fc0e755) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b98988a4dedb2100ef68463a3f41997f') in 0.0355459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/Chess Game/Pieces/Rook.cs
+  artifactKey: Guid(2da0096886a6fc5468b8adbe986c8dcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Chess Game/Pieces/Rook.cs using Guid(2da0096886a6fc5468b8adbe986c8dcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c89ffe0239c940347114c1ac69c188e') in 0.0274255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Sprites/Unused/IconErrorHighRes.psd
+  artifactKey: Guid(a97ca0b99ece2d94aaaf59653feb45dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Sprites/Unused/IconErrorHighRes.psd using Guid(a97ca0b99ece2d94aaaf59653feb45dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc25c3f4248d52cde81460ef4ccc8bce') in 0.0603469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_07_d.tga
+  artifactKey: Guid(5728b35c107206d438c65a58654b256d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_07_d.tga using Guid(5728b35c107206d438c65a58654b256d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c92892cf95f4c74b24481e8e31adb1cf') in 0.0383392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_01.mat
+  artifactKey: Guid(c72c18a65c5a3ed4ead4b1b025a1a5d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_01.mat using Guid(c72c18a65c5a3ed4ead4b1b025a1a5d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '727a15f018198c2d4a3fd6ec5f175188') in 0.0429056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White King.prefab
+  artifactKey: Guid(9e4e635002b6a524ca896adb28e8e388) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White King.prefab using Guid(9e4e635002b6a524ca896adb28e8e388) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7929969af7a92e1cc46b5c6339ab05cc') in 0.0715385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kitchen table with chair/Textures/ClassicRoundTable1_d.png
+  artifactKey: Guid(c223689ff00cdc644becd359dc48ce38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/Textures/ClassicRoundTable1_d.png using Guid(c223689ff00cdc644becd359dc48ce38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0381c0021b13366ddb2b9454dbb0c1c0') in 0.04001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_12.mat
+  artifactKey: Guid(e20fae5a4472e48469ab68229b53bd6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Materials/M_YFFlM_12.mat using Guid(e20fae5a4472e48469ab68229b53bd6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '677ad9146f2ae63af351751d2f4353f8') in 0.0548195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kitchen table with chair/Models/ClassicRoundTable1.FBX
+  artifactKey: Guid(bd168fc019fa5de48a06efa8fb94aefa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Kitchen table with chair/Models/ClassicRoundTable1.FBX using Guid(bd168fc019fa5de48a06efa8fb94aefa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31e67e680f4e824b4b7d8f7e6d51af67') in 0.042275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs
+  artifactKey: Guid(cb564dcb180e586429c57456166a76b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs using Guid(cb564dcb180e586429c57456166a76b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0e378e425a8330a9f1390f8f89e0536') in 0.0484065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Scripts/Chess Game/Pieces/King.cs
+  artifactKey: Guid(69e86f1fbc497da4c8468853d629b9dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Chess Game/Pieces/King.cs using Guid(69e86f1fbc497da4c8468853d629b9dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79ed139ddd8bba98da3f394d8874df17') in 0.0307537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scripts/Chess Game/Pieces/Pawn.cs
+  artifactKey: Guid(a53582016e9cd0d418e1cdd568cde22d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Chess Game/Pieces/Pawn.cs using Guid(a53582016e9cd0d418e1cdd568cde22d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65001e5a1d927b98b50ae6459f7109c6') in 0.0713029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_05_s.tga
+  artifactKey: Guid(9b90420c4b45314468f0c5a78238ff13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_05_s.tga using Guid(9b90420c4b45314468f0c5a78238ff13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b70b8c5eb41888e1a4e6cf043f159b7c') in 0.0504734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/Commands/TimeCommands.cs
+  artifactKey: Guid(bb12a1f557fffa541909fcfe92d9c1bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/Commands/TimeCommands.cs using Guid(bb12a1f557fffa541909fcfe92d9c1bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75d8ba88119a8bb2d39ffe4bc73d036f') in 0.0408329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Queen.prefab
+  artifactKey: Guid(1f7a3b3d104b8e44cb39f5356ae1d0bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Queen.prefab using Guid(1f7a3b3d104b8e44cb39f5356ae1d0bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15651fa34b451f1c0a688252f3af33a9') in 0.0594679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.314191 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs
+  artifactKey: Guid(45984eacd62d9a3489fd62689265a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs using Guid(45984eacd62d9a3489fd62689265a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7bab0ce2df56c78ef6e52baa3288950') in 0.0011766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs
+  artifactKey: Guid(cb564dcb180e586429c57456166a76b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs using Guid(cb564dcb180e586429c57456166a76b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '978f72358751b53512f6bf33a3ba06b8') in 0.000903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6fc900a3a7f3762bee62e027732bfcf') in 0.1392067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316373 seconds.
+  path: Assets/Scripts/Enums/TeamColor.cs
+  artifactKey: Guid(1d6aa59e491fddf478bd5ddd8c50b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enums/TeamColor.cs using Guid(1d6aa59e491fddf478bd5ddd8c50b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c99939df02318583494de898243085d') in 0.0020132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
